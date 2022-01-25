@@ -1,23 +1,40 @@
 import React from "react";
 import styled from "styled-components";
 
+import BackgroundImage from "../images/title-card-bg.svg";
+
 export default function TitleCard() {
   return (
     <Container>
-      <H1>Title Here</H1>
-      <SubTitle>Subtitle</SubTitle>
+      <H1>Product Feedback App</H1>
+      <SubTitle>By Aaron Varga</SubTitle>
     </Container>
   );
 }
 
 const Container = styled.div`
-  // Styles go here.
+  background-image: url("${BackgroundImage}");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.75rem;
+  -moz-border-radius: .75rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
 `;
 
 const H1 = styled.h1`
-  // Styles here.
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
 `;
 
 const SubTitle = styled.h2`
-  // CSS here!
+  color: rgba(255,255,255,.75);
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
 `;

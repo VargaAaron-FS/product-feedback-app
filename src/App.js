@@ -26,12 +26,15 @@ export default App;
 
 const Container = styled.div`
   display: flex;
+  flex-direction: row;
 `;
 
 const Aside = styled.aside`
-  // CSS goes here!
+  display: flex;
+  flex-direction: column;
 `;
 
 const Main = styled.main`
-  // CSS goes here!
+  display: flex;
+  flex-direction: column;
 `;
