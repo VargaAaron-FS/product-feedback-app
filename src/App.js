@@ -27,14 +27,19 @@ export default App;
 const Container = styled.div`
   display: flex;
   flex-direction: row;
+  column-gap: 2rem;
+  padding: 1rem;
 `;
 
 const Aside = styled.aside`
   display: flex;
   flex-direction: column;
+  row-gap: 1.5rem;
 `;
 
 const Main = styled.main`
   display: flex;
   flex-direction: column;
+  row-gap: 1.5rem;
+  width: calc(100% - 4rem);
 `;

@@ -10,5 +10,7 @@ export default function FeedbackControlPanel() {
 }
 
 const Container = styled.div`
-  // Styles go here.
+  border-radius: 0.75rem;
+  padding: 2rem;
+  display: flex;
 `;

@@ -19,7 +19,7 @@ const Container = styled.div`
   background-repeat: no-repeat;
   border-radius: 0.75rem;
   -moz-border-radius: .75rem;
-  padding: 2rem;
+  padding: 4rem 2rem 2rem 2rem;
   display: flex;
   flex-direction: column;
 `;

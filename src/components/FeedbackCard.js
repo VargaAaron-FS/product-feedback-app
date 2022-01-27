@@ -10,5 +10,8 @@ export default function FeedbackCard() {
 }
 
 const Container = styled.div`
-  // Styles go here.
+  border-radius: 0.75rem;
+  padding: 2rem;
+  display: flex;
+  background: #fff;
 `;

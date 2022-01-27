@@ -10,5 +10,9 @@ export default function RoadmapCard() {
 }
 
 const Container = styled.div`
-  // Styles go here.
+  border-radius: 0.75rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
 `;
